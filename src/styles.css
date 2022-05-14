@@ -13,7 +13,7 @@ body {
 
 .wrapper {
   width: 100vw;
-  height: 100vw;
+  height: 40vw;
   background-color: #191c32;
 }
 
@@ -24,7 +24,12 @@ body {
   padding: 2em;
 }
 
+.navbar img {
+  display: flex;
+}
+
 .yoprog {
+  display: flex;
   font-family: "Poppins",sans-serif;
   color:rgb(24, 223, 51)
 }
@@ -43,6 +48,7 @@ body {
   color: rgb(24, 223, 51);
   text-decoration: none;
   padding: 3px 5px;
+  cursor: none;
 }
 
 .menu a:hover {
@@ -58,7 +64,6 @@ body {
   background-color: rgb(24, 223, 51);
   border: none;
   border-radius: 10px;
-  cursor: pointer;
   font-family: 'Playfair Display', serif;
   margin-top: -2px;
   font-size: larger;
@@ -73,10 +78,11 @@ body {
 .main {
   margin: auto;
   width: 80vw;
-  height: 40vw;
+  height: 30vw;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
+  padding: 2vw;
 }
 
 h1 {
@@ -104,8 +110,8 @@ h1 {
 }
 
 .main img {
-  width: 350 px;
-  height: 520 px;
+  width: 50%;
+  display: flex;
   border: 7 px solid rgb(24, 223, 51);
 }
 
@@ -117,7 +123,20 @@ h1 {
 .trabajo {
   margin: auto;
   width: 80vw;
-  height: 10vw;
+  height: 7vw;
+  display: grid;
+  align-items: center;
+}
+
+.estudios {
+  color: #191c32;
+  padding-top: 3vw;
+}
+
+.estudio {
+  margin: auto;
+  width: 80vw;
+  height: 5vw;
   display: grid;
   align-items: center;
 }
