@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +13,8 @@ body {
 }
 
 .wrapper {
-  width: 100vw;
-  height: 40vw;
+  width: 100%;
+  height: 75vw;
   background-color: #191c32;
 }
 
@@ -21,20 +22,28 @@ body {
   height: 1,5cm;
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1em;
 }
 
 .navbar img {
   display: flex;
+  background: none;
 }
 
 .yoprog {
   display: flex;
+  padding-top: 1.5em;
   font-family: "Poppins",sans-serif;
   color:rgb(24, 223, 51)
 }
 
+.banner {
+  width: 100%;
+  padding: 1em;
+}
+
 .menu {
+  padding-top: 1.5em;
   display: flex;
   width: 50%;
   justify-content: space-around;
@@ -59,7 +68,7 @@ body {
 }
 
 .log {
-  padding: 7px 10px;
+  padding: 0.5em;
   color: #191c32;
   background-color: rgb(24, 223, 51);
   border: none;
@@ -77,7 +86,7 @@ body {
 
 .main {
   margin: auto;
-  width: 80vw;
+  width: 80%;
   height: 30vw;
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -85,9 +94,14 @@ body {
   padding: 2vw;
 }
 
-h1 {
+.info h1 {
   font-size: 3em;
   color: rgb(24, 223, 51);
+}
+
+.foto {
+  margin-left: 3em;
+  border: solid #fff;
 }
 
 .introduccion {
@@ -128,15 +142,32 @@ h1 {
   align-items: center;
 }
 
+.separador {
+  align-content: center;
+  height: 5px;
+  width: 90vw;
+  background-color: #191c32;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
 .estudios {
   color: #191c32;
-  padding-top: 3vw;
 }
 
 .estudio {
   margin: auto;
   width: 80vw;
-  height: 5vw;
+  height: 7vw;
   display: grid;
   align-items: center;
+}
+
+.estudio i {
+  color: #191c32;
+}
+
+.proyecto i {
+  color: #191c32;
 }
